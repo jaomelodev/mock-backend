@@ -1,17 +1,20 @@
 {
-  "locales": {
-    "en": {
-      "base": {
-        "hello": "Hello There!",
-        "welcome": "Welcome to This Corporation!"
-      },
-      "acme": {
-        "hello": "Hello Acme",
-        "welcome": "Welcome to Acme Corporation!"
-      },
-      "beta": {
-        "hello": "Hello Beta"
-      }
+  "locales": [
+    {
+      "id": "base",
+      "translations": [
+        { "id": "en", "hello": "Hello There!", "welcome": "Welcome to This Corporation!" }
+      ]
+    },
+    {
+      "id": "acme",
+      "translations": [
+        { "id": "en", "hello": "Hello Acme", "welcome": "Welcome to Acme Corporation!" }
+      ]
+    },
+    {
+      "id": "beta",
+      "translations": [{ "id": "en", "hello": "Hello Beta" }]
     }
-  }
+  ]
 }
